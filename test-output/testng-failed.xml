@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.appium.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests" preserve-order="false">
+    <classes>
+      <class name="com.appium.testcases.ApiDemoTest">
+        <methods>
+          <include name="kill"/>
+        </methods>
+      </class>
+      <class name="com.appium.testcases.VerifyAmount">
+        <methods>
+          <include name="kill"/>
+          <include name="testValidation"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

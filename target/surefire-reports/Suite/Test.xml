@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="hp-PC" name="com.appium.testcases.ApiDemoTest" tests="3" failures="0" timestamp="2 Dec 2019 14:09:48 GMT" time="197.379" errors="0">
+  <testcase name="apidemotestvalidation" time="56.403" classname="com.appium.testcases.ApiDemoTest"/>
+  <testcase name="apidemotestvalidation" time="42.245" classname="com.appium.testcases.ApiDemoTest"/>
+  <testcase name="testValidation" time="92.68" classname="com.appium.testcases.VerifyAmount"/>
+</testsuite>

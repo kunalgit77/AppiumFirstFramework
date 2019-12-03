@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="197379" started-at="2019-12-02T19:36:31Z" finished-at="2019-12-02T19:39:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="197379" started-at="2019-12-02T19:36:31Z" finished-at="2019-12-02T19:39:48Z">
+      <class name="com.appium.testcases.VerifyAmount">
+        <test-method status="PASS" signature="testValidation()" name="testValidation" duration-ms="92680" started-at="2019-12-02T19:38:16Z" finished-at="2019-12-02T19:39:48Z">
+        </test-method>
+      </class>
+      <class name="com.appium.testcases.ApiDemoTest">
+        <test-method status="PASS" signature="kill()" name="kill" is-config="true" duration-ms="3013" started-at="2019-12-02T19:36:31Z" finished-at="2019-12-02T19:36:34Z">
+        </test-method>
+        <test-method status="PASS" signature="kill()" name="kill" is-config="true" duration-ms="3003" started-at="2019-12-02T19:36:34Z" finished-at="2019-12-02T19:36:37Z">
+        </test-method>
+        <test-method status="PASS" signature="apidemotestvalidation(java.lang.String)" name="apidemotestvalidation" duration-ms="56403" started-at="2019-12-02T19:36:37Z" finished-at="2019-12-02T19:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="apidemotestvalidation(java.lang.String)" name="apidemotestvalidation" duration-ms="42245" started-at="2019-12-02T19:37:33Z" finished-at="2019-12-02T19:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

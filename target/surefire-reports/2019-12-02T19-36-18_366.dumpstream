@@ -1,0 +1,4 @@
+# Created at 2019-12-02T19:36:29.862
+Boot Manifest-JAR contains absolute paths in classpath 'D:\selinium\Framework\AppiumFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
